@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>How the Sky Works</title>
+<style>
+@font-face { font-family: Fredoka; font-weight: 500; src: url(node_modules/@fontsource/fredoka/files/fredoka-latin-500-normal.woff2) format('woff2'); }
+@font-face { font-family: Fredoka; font-weight: 600; src: url(node_modules/@fontsource/fredoka/files/fredoka-latin-600-normal.woff2) format('woff2'); }
+@font-face { font-family: Fredoka; font-weight: 700; src: url(node_modules/@fontsource/fredoka/files/fredoka-latin-700-normal.woff2) format('woff2'); }
+html, body { margin: 0; background: #000; overflow: hidden; }
+#stage { position: relative; width: 1920px; height: 1080px; overflow: hidden; font-family: Fredoka, 'DejaVu Sans', sans-serif; color: #fff; }
+#c { position: absolute; inset: 0; width: 1920px; height: 1080px; }
+.layer { position: absolute; inset: 0; pointer-events: none; }
+.lbl { position: absolute; transform: translate(-50%, -50%); white-space: nowrap; font-weight: 600; font-size: 38px;
+  padding: 6px 22px; border-radius: 40px; background: rgba(10, 16, 40, .72); border: 3px solid rgba(255,255,255,.85); }
+.lbl.big { font-size: 64px; font-weight: 700; padding: 10px 36px; }
+.lbl.huge { font-size: 92px; font-weight: 700; background: none; border: none; text-shadow: 0 6px 0 rgba(0,0,0,.45), 0 0 30px rgba(0,0,0,.6); }
+.lbl.plain { background: none; border: none; text-shadow: 0 3px 0 rgba(0,0,0,.6), 0 0 14px rgba(0,0,0,.8); }
+.lbl.sun { border-color: #ffc93c; color: #ffe08a; }
+.lbl.warm { border-color: #ff9a3c; color: #ffd2a6; }
+.lbl.cool { border-color: #7cc4ff; color: #cfe8ff; }
+.lbl.moon { border-color: #d6d6e6; }
+.dot { position: absolute; width: 18px; height: 18px; margin: -9px 0 0 -9px; border-radius: 50%; background: #ffcf3c; border: 3px solid #fff; }
+.lead { position: absolute; height: 3px; background: rgba(255,255,255,.85); transform-origin: 0 50%; }
+#caption { position: absolute; left: 160px; right: 160px; bottom: 56px; text-align: center; font-weight: 600; font-size: 58px; line-height: 1.18;
+  text-shadow: 0 4px 0 #000, 0 0 12px rgba(0,0,0,.9), 3px 0 0 #000, -3px 0 0 #000, 0 -3px 0 #000; }
+#chapter { position: absolute; left: 48px; top: 40px; font-weight: 700; font-size: 40px; padding: 8px 28px 8px 14px; border-radius: 40px;
+  background: rgba(255,255,255,.14); border: 3px solid rgba(255,255,255,.5); display: flex; align-items: center; gap: 14px; }
+#chapter b { display: inline-grid; place-items: center; width: 52px; height: 52px; border-radius: 50%; background: #ffc93c; color: #1b2240; font-size: 34px; }
+#note { position: absolute; right: 40px; top: 46px; font-size: 26px; font-weight: 500; color: rgba(255,255,255,.75); }
+.inset { position: absolute; border-radius: 50%; border: 6px solid #fff; box-shadow: 0 10px 40px rgba(0,0,0,.5); }
+.inset-title { position: absolute; transform: translateX(-50%); font-weight: 600; font-size: 34px; text-align: center; white-space: nowrap;
+  text-shadow: 0 3px 0 rgba(0,0,0,.6); }
+#card { position: absolute; left: 50%; top: 430px; transform: translate(-50%, -50%); width: 1100px; padding: 50px 60px; border-radius: 48px;
+  background: #fff; color: #1b2240; text-align: center; box-shadow: 0 20px 80px rgba(0,0,0,.5); }
+#card h1 { margin: 20px 0 10px; font-size: 72px; font-weight: 700; color: #d7263d; }
+#card p { margin: 0; font-size: 38px; font-weight: 500; }
+.recap { position: absolute; left: 80px; font-size: 50px; font-weight: 600; padding: 14px 34px; border-radius: 30px; background: rgba(10,16,40,.78);
+  border: 3px solid rgba(255,255,255,.8); white-space: nowrap; }
+.recap span { color: #ffc93c; }
+.chip { position: absolute; width: 96px; height: 96px; margin: -48px 0 0 -48px; border-radius: 22px; background: #fff; color: #1b2240;
+  display: grid; place-items: center; font-size: 56px; font-weight: 700; box-shadow: 0 8px 0 #ffc93c; }
+#fade { position: absolute; inset: 0; background: #000; opacity: 0; }
+</style>
+</head>
+<body>
+<div id="stage">
+  <canvas id="c" width="1920" height="1080"></canvas>
+  <div class="layer" id="labels"></div>
+  <div class="layer" id="extra"></div>
+  <div id="chapter"></div>
+  <div id="note">Sizes and distances are not to scale</div>
+  <div id="caption"></div>
+  <div id="fade"></div>
+</div>
+<script src="node_modules/topojson-client/dist/topojson-client.min.js"></script>
+<script type="importmap">{ "imports": { "three": "./node_modules/three/build/three.module.js" } }</script>
+<script type="module" src="src/main.js"></script>
+</body>
+</html>

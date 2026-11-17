@@ -1,0 +1,40 @@
+[
+  {"scene":"intro","lines":[
+    "Have you ever wondered why the sky keeps changing?",
+    "Let's watch the Sun, the Earth and the Moon move together!"]},
+  {"scene":"day","lines":[
+    "The Earth is always spinning, like a spinning top.",
+    "The Sun shines on one half of it.",
+    "When your home faces the Sun, it's daytime.",
+    "When your home turns away from the Sun, it's nighttime.",
+    "One whole spin takes one day."]},
+  {"scene":"hours","lines":[
+    "A long time ago, people cut each day into twenty four pieces.",
+    "We call those pieces hours."]},
+  {"scene":"month","lines":[
+    "The Moon travels around the Earth.",
+    "The Moon has no light of its own. The Sun lights up half of it, like a lamp shining on a ball.",
+    "As the Moon goes around, we see more or less of its bright side.",
+    "That's why the Moon seems to change its shape!",
+    "One trip around the Earth takes about one month."]},
+  {"scene":"week","lines":[
+    "The Moon changes to a new shape about every seven days.",
+    "So people made a week. Seven days!"]},
+  {"scene":"year","lines":[
+    "The Earth also travels all the way around the Sun.",
+    "One whole trip takes one year.",
+    "The Earth is a little bit tilted.",
+    "When your side leans toward the Sun, you get more sunshine. That's summer.",
+    "When your side leans away, you get less. That's winter."]},
+  {"scene":"eclipse","lines":[
+    "Sometimes, the Moon passes exactly between the Sun and the Earth.",
+    "It blocks the sunlight, and its shadow falls on the Earth.",
+    "The sky gets dark in the middle of the day! That's a solar eclipse.",
+    "It doesn't happen every month, because the Moon usually passes a little above or below the Sun.",
+    "And remember: never look straight at the Sun!"]},
+  {"scene":"outro","lines":[
+    "One spin of the Earth is a day.",
+    "One trip of the Moon is a month.",
+    "One trip around the Sun is a year.",
+    "Isn't the sky amazing?"]}
+]

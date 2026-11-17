@@ -1,0 +1,211 @@
+{
+ "duration": 136.151,
+ "scenes": [
+  {
+   "scene": "intro",
+   "start": 0.0,
+   "lines": [
+    {
+     "text": "Have you ever wondered why the sky keeps changing?",
+     "start": 1.5,
+     "end": 4.423
+    },
+    {
+     "text": "Let's watch the Sun, the Earth and the Moon move together!",
+     "start": 5.323,
+     "end": 8.651
+    }
+   ],
+   "end": 10.151
+  },
+  {
+   "scene": "day",
+   "start": 10.151,
+   "lines": [
+    {
+     "text": "The Earth is always spinning, like a spinning top.",
+     "start": 11.651,
+     "end": 14.573
+    },
+    {
+     "text": "The Sun shines on one half of it.",
+     "start": 15.473,
+     "end": 17.543
+    },
+    {
+     "text": "When your home faces the Sun, it's daytime.",
+     "start": 18.443,
+     "end": 21.088
+    },
+    {
+     "text": "When your home turns away from the Sun, it's nighttime.",
+     "start": 21.988,
+     "end": 25.039
+    },
+    {
+     "text": "One whole spin takes one day.",
+     "start": 25.939,
+     "end": 27.731
+    }
+   ],
+   "end": 29.231
+  },
+  {
+   "scene": "hours",
+   "start": 29.231,
+   "lines": [
+    {
+     "text": "A long time ago, people cut each day into twenty four pieces.",
+     "start": 30.731,
+     "end": 34.699
+    },
+    {
+     "text": "We call those pieces hours.",
+     "start": 35.599,
+     "end": 37.305
+    }
+   ],
+   "end": 38.805
+  },
+  {
+   "scene": "month",
+   "start": 38.805,
+   "lines": [
+    {
+     "text": "The Moon travels around the Earth.",
+     "start": 40.305,
+     "end": 42.204
+    },
+    {
+     "text": "The Moon has no light of its own. The Sun lights up half of it, like a lamp shining on a ball.",
+     "start": 43.104,
+     "end": 49.013
+    },
+    {
+     "text": "As the Moon goes around, we see more or less of its bright side.",
+     "start": 49.913,
+     "end": 53.796
+    },
+    {
+     "text": "That's why the Moon seems to change its shape!",
+     "start": 54.696,
+     "end": 57.064
+    },
+    {
+     "text": "One trip around the Earth takes about one month.",
+     "start": 57.964,
+     "end": 60.567
+    }
+   ],
+   "end": 62.067
+  },
+  {
+   "scene": "week",
+   "start": 62.067,
+   "lines": [
+    {
+     "text": "The Moon changes to a new shape about every seven days.",
+     "start": 63.567,
+     "end": 66.937
+    },
+    {
+     "text": "So people made a week. Seven days!",
+     "start": 67.837,
+     "end": 70.269
+    }
+   ],
+   "end": 71.769
+  },
+  {
+   "scene": "year",
+   "start": 71.769,
+   "lines": [
+    {
+     "text": "The Earth also travels all the way around the Sun.",
+     "start": 73.269,
+     "end": 76.192
+    },
+    {
+     "text": "One whole trip takes one year.",
+     "start": 77.092,
+     "end": 78.927
+    },
+    {
+     "text": "The Earth is a little bit tilted.",
+     "start": 79.827,
+     "end": 81.811
+    },
+    {
+     "text": "When your side leans toward the Sun, you get more sunshine. That's summer.",
+     "start": 82.711,
+     "end": 87.233
+    },
+    {
+     "text": "When your side leans away, you get less. That's winter.",
+     "start": 88.133,
+     "end": 91.419
+    }
+   ],
+   "end": 92.919
+  },
+  {
+   "scene": "eclipse",
+   "start": 92.919,
+   "lines": [
+    {
+     "text": "Sometimes, the Moon passes exactly between the Sun and the Earth.",
+     "start": 94.419,
+     "end": 98.451
+    },
+    {
+     "text": "It blocks the sunlight, and its shadow falls on the Earth.",
+     "start": 99.351,
+     "end": 102.551
+    },
+    {
+     "text": "The sky gets dark in the middle of the day! That's a solar eclipse.",
+     "start": 103.451,
+     "end": 107.333
+    },
+    {
+     "text": "It doesn't happen every month, because the Moon usually passes a little above or below the Sun.",
+     "start": 108.233,
+     "end": 113.801
+    },
+    {
+     "text": "And remember: never look straight at the Sun!",
+     "start": 114.701,
+     "end": 117.304
+    }
+   ],
+   "end": 118.804
+  },
+  {
+   "scene": "outro",
+   "start": 118.804,
+   "lines": [
+    {
+     "text": "One spin of the Earth is a day.",
+     "start": 120.304,
+     "end": 122.053
+    },
+    {
+     "text": "One trip of the Moon is a month.",
+     "start": 122.953,
+     "end": 124.895
+    },
+    {
+     "text": "One trip around the Sun is a year.",
+     "start": 125.795,
+     "end": 127.757
+    },
+    {
+     "text": "Isn't the sky amazing?",
+     "start": 128.657,
+     "end": 130.151
+    }
+   ],
+   "end": 136.151
+  }
+ ]
+}
