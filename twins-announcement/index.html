@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Twin Boys Announcement</title>
+<style>
+@font-face { font-family: Fredoka; font-weight: 600; src: url(node_modules/@fontsource/fredoka/files/fredoka-latin-600-normal.woff2) format('woff2'); unicode-range: U+0000-00FF, U+2010-2027; }
+@font-face { font-family: Fredoka; font-weight: 700; src: url(node_modules/@fontsource/fredoka/files/fredoka-latin-700-normal.woff2) format('woff2'); unicode-range: U+0000-00FF, U+2010-2027; }
+@font-face { font-family: Fredoka; font-weight: 600; src: url(node_modules/@fontsource/fredoka/files/fredoka-hebrew-600-normal.woff2) format('woff2'); unicode-range: U+0590-05FF, U+FB1D-FB4F; }
+@font-face { font-family: Fredoka; font-weight: 700; src: url(node_modules/@fontsource/fredoka/files/fredoka-hebrew-700-normal.woff2) format('woff2'); unicode-range: U+0590-05FF, U+FB1D-FB4F; }
+html, body { margin: 0; background: #000; overflow: hidden; }
+#stage { position: relative; width: 1080px; height: 1920px; overflow: hidden; font-family: Fredoka, 'DejaVu Sans', sans-serif; }
+#c { position: absolute; inset: 0; width: 1080px; height: 1920px; }
+.layer { position: absolute; inset: 0; pointer-events: none; }
+.bubble { position: absolute; transform: translate(-50%, -100%); max-width: 760px; padding: 26px 44px; border-radius: 60px; background: #fff; color: #1d2340;
+  font-weight: 700; font-size: 68px; line-height: 1.15; text-align: center; box-shadow: 0 10px 0 rgba(0,0,0,.18); border: 6px solid #1d2340; }
+.bubble::after { content: ''; position: absolute; left: var(--tail, 50%); bottom: -40px; margin-left: -24px; border: 24px solid transparent; border-top: 30px solid #1d2340; }
+.bubble::before { content: ''; position: absolute; left: var(--tail, 50%); bottom: -26px; margin-left: -18px; border: 18px solid transparent; border-top: 22px solid #fff; z-index: 1; }
+.who { display: block; font-size: 34px; color: #6b7bd6; margin-bottom: 4px; }
+.ring { position: absolute; border-radius: 50%; border: 10px solid #4aa3ff; box-shadow: 0 0 30px #4aa3ff, inset 0 0 20px #4aa3ff; transform: translate(-50%, -50%); }
+.big { position: absolute; left: 0; right: 0; text-align: center; font-weight: 700; color: #fff;
+  text-shadow: 0 8px 0 #1f5fbf, 0 0 40px rgba(31,95,191,.6); }
+.big.t1 { font-size: 150px; }
+.big.t2 { font-size: 78px; color: #fff7c2; text-shadow: 0 6px 0 #1f5fbf; }
+.big.dark { color: #1d2340; text-shadow: 0 4px 0 rgba(255,255,255,.9); }
+.panel { position: absolute; left: 70px; right: 70px; padding: 30px 40px; border-radius: 50px; background: rgba(255,255,255,.92); color: #1d2340; text-align: center;
+  box-shadow: 0 10px 0 rgba(31,95,191,.35); font-weight: 600; font-size: 52px; }
+.panel b { display: block; font-weight: 700; font-size: 58px; color: #1f5fbf; margin-top: 6px; }
+#fade { position: absolute; inset: 0; background: #000; opacity: 0; }
+#flash { position: absolute; inset: 0; background: #fff; opacity: 0; }
+</style>
+</head>
+<body>
+<div id="stage">
+  <canvas id="c" width="1080" height="1920"></canvas>
+  <div class="layer" id="ov"></div>
+  <div id="flash"></div>
+  <div id="fade"></div>
+</div>
+<script type="importmap">{ "imports": { "three": "./node_modules/three/build/three.module.js" } }</script>
+<script type="module" src="src/main.js"></script>
+</body>
+</html>

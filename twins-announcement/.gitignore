@@ -1,0 +1,5 @@
+node_modules
+stills*/
+.segs-*/
+renders/silent_*.mp4
+audio/lines/*_raw.wav
