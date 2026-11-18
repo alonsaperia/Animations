@@ -1,0 +1,329 @@
+{
+ "duration": 216.067,
+ "scenes": [
+  {
+   "scene": "intro",
+   "start": 0,
+   "lines": [
+    {
+     "text": "Why is it so cold in winter?",
+     "who": "ella",
+     "start": 1.2,
+     "end": 2.702
+    },
+    {
+     "text": "Why is the grass white in the morning?",
+     "who": "eitan",
+     "start": 3.152,
+     "end": 5.067
+    },
+    {
+     "text": "Where does rain come from?",
+     "who": "nili",
+     "start": 5.517,
+     "end": 6.766
+    },
+    {
+     "text": "Great questions! Let's find out how the weather works.",
+     "who": "narrator",
+     "start": 7.216,
+     "end": 10.267
+    }
+   ],
+   "end": 11.467
+  },
+  {
+   "scene": "tilt",
+   "start": 11.467,
+   "lines": [
+    {
+     "text": "Remember, the Earth is a little bit tilted.",
+     "who": "narrator",
+     "start": 12.667,
+     "end": 15.142
+    },
+    {
+     "text": "In summer, your side leans toward the Sun. The Sun climbs high in the sky, and the days are long.",
+     "who": "narrator",
+     "start": 15.942,
+     "end": 22.214
+    },
+    {
+     "text": "In winter, the Sun stays low, and the days are short.",
+     "who": "narrator",
+     "start": 23.014,
+     "end": 26.299
+    }
+   ],
+   "end": 27.499
+  },
+  {
+   "scene": "flash",
+   "start": 27.499,
+   "lines": [
+    {
+     "text": "Look at these two flashlights.",
+     "who": "narrator",
+     "start": 28.699,
+     "end": 30.406
+    },
+    {
+     "text": "When light shines straight down, it makes a small, strong spot. That's like summer sunshine. It warms the ground a lot.",
+     "who": "narrator",
+     "start": 31.206,
+     "end": 38.822
+    },
+    {
+     "text": "When light comes in at a slant, it spreads out and gets weaker. That's like winter sunshine. So it's colder!",
+     "who": "narrator",
+     "start": 39.622,
+     "end": 46.022
+    }
+   ],
+   "end": 47.222
+  },
+  {
+   "scene": "night",
+   "start": 47.222,
+   "lines": [
+    {
+     "text": "Every day, the Sun warms the ground.",
+     "who": "narrator",
+     "start": 48.422,
+     "end": 50.768
+    },
+    {
+     "text": "At night there is no Sun, so the ground lets its warmth float away, up into the sky.",
+     "who": "narrator",
+     "start": 51.568,
+     "end": 56.774
+    },
+    {
+     "text": "On a clear night, the warmth escapes easily, and it gets really cold.",
+     "who": "narrator",
+     "start": 57.574,
+     "end": 62.011
+    },
+    {
+     "text": "Clouds work like a blanket. They keep some of the warmth in.",
+     "who": "narrator",
+     "start": 62.811,
+     "end": 66.246
+    },
+    {
+     "text": "That's why the coldest time is often early in the morning, just before the Sun comes up.",
+     "who": "narrator",
+     "start": 67.046,
+     "end": 72.144
+    }
+   ],
+   "end": 73.344
+  },
+  {
+   "scene": "vapor",
+   "start": 73.344,
+   "lines": [
+    {
+     "text": "Now, water.",
+     "who": "narrator",
+     "start": 74.544,
+     "end": 75.632
+    },
+    {
+     "text": "When the Sun warms a puddle, a lake, or the sea, some water turns into an invisible gas called water vapor.",
+     "who": "narrator",
+     "start": 76.432,
+     "end": 83.472
+    },
+    {
+     "text": "It floats in the air all around us. How much water vapor is in the air is called humidity.",
+     "who": "narrator",
+     "start": 84.272,
+     "end": 90.011
+    }
+   ],
+   "end": 91.211
+  },
+  {
+   "scene": "jars",
+   "start": 91.211,
+   "lines": [
+    {
+     "text": "Warm air can hold lots of water vapor. Cold air can hold less.",
+     "who": "narrator",
+     "start": 92.411,
+     "end": 96.614
+    }
+   ],
+   "end": 97.814
+  },
+  {
+   "scene": "glass",
+   "start": 97.814,
+   "lines": [
+    {
+     "text": "Have you seen a cold glass of water get wet on the outside?",
+     "who": "narrator",
+     "start": 99.014,
+     "end": 102.256
+    },
+    {
+     "text": "The cold glass cools the air around it, and the water vapor turns back into tiny drops.",
+     "who": "narrator",
+     "start": 103.056,
+     "end": 108.518
+    }
+   ],
+   "end": 109.718
+  },
+  {
+   "scene": "frost",
+   "start": 109.718,
+   "lines": [
+    {
+     "text": "The same thing happens on the grass at night. When the grass gets cold, little drops appear. That's dew.",
+     "who": "narrator",
+     "start": 110.918,
+     "end": 117.126
+    },
+    {
+     "text": "But on a winter night, the grass can get colder than freezing.",
+     "who": "narrator",
+     "start": 117.926,
+     "end": 121.296
+    },
+    {
+     "text": "Then the water vapor turns straight into tiny ice crystals. That's frost!",
+     "who": "narrator",
+     "start": 122.096,
+     "end": 126.747
+    },
+    {
+     "text": "When the Sun comes up and warms the grass, the frost melts away.",
+     "who": "narrator",
+     "start": 127.547,
+     "end": 131.259
+    }
+   ],
+   "end": 132.459
+  },
+  {
+   "scene": "rain",
+   "start": 132.459,
+   "lines": [
+    {
+     "text": "So where does rain come from?",
+     "who": "narrator",
+     "start": 133.659,
+     "end": 135.259
+    },
+    {
+     "text": "The Sun warms the sea, and water vapor rises up with the warm air.",
+     "who": "narrator",
+     "start": 136.059,
+     "end": 140.411
+    },
+    {
+     "text": "High in the sky it is cold, so the vapor turns into tiny droplets. Lots and lots of them make a cloud!",
+     "who": "narrator",
+     "start": 141.211,
+     "end": 148.486
+    },
+    {
+     "text": "The droplets bump together and grow bigger and heavier.",
+     "who": "narrator",
+     "start": 149.286,
+     "end": 152.592
+    },
+    {
+     "text": "When they get too heavy, they fall down as rain.",
+     "who": "narrator",
+     "start": 153.392,
+     "end": 156.123
+    },
+    {
+     "text": "The rain flows into rivers and back to the sea, and it all starts again. This is called the water cycle.",
+     "who": "narrator",
+     "start": 156.923,
+     "end": 163.643
+    }
+   ],
+   "end": 164.843
+  },
+  {
+   "scene": "flake",
+   "start": 164.843,
+   "lines": [
+    {
+     "text": "When it's very cold up in the cloud, the water turns into ice crystals instead.",
+     "who": "narrator",
+     "start": 166.043,
+     "end": 170.907
+    },
+    {
+     "text": "They grow into beautiful snowflakes. Every snowflake has six arms!",
+     "who": "narrator",
+     "start": 171.707,
+     "end": 176.08
+    }
+   ],
+   "end": 177.28
+  },
+  {
+   "scene": "fall",
+   "start": 177.28,
+   "lines": [
+    {
+     "text": "If the air stays cold all the way down, they land as snow.",
+     "who": "narrator",
+     "start": 178.48,
+     "end": 182.107
+    },
+    {
+     "text": "If the air near the ground is warm, the snowflakes melt and land as rain. In fact, a lot of rain starts as snow, high up in the sky!",
+     "who": "narrator",
+     "start": 182.907,
+     "end": 192.102
+    }
+   ],
+   "end": 193.302
+  },
+  {
+   "scene": "outro",
+   "start": 193.302,
+   "lines": [
+    {
+     "text": "So: the tilt of the Earth gives us seasons.",
+     "who": "narrator",
+     "start": 194.502,
+     "end": 197.04
+    },
+    {
+     "text": "The Sun warms the day, and clear nights get cold.",
+     "who": "narrator",
+     "start": 197.84,
+     "end": 200.784
+    },
+    {
+     "text": "Cold grass gives us dew and frost.",
+     "who": "narrator",
+     "start": 201.584,
+     "end": 203.739
+    },
+    {
+     "text": "And warm, wet air rising up gives us clouds, rain, and snow!",
+     "who": "narrator",
+     "start": 204.539,
+     "end": 208.678
+    },
+    {
+     "text": "Weather is awesome!",
+     "who": "all",
+     "start": 209.478,
+     "end": 210.667
+    }
+   ],
+   "end": 216.067
+  }
+ ]
+}

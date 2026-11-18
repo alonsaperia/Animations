@@ -1,0 +1,54 @@
+[
+ {"scene":"intro","lines":[
+  {"who":"ella","text":"Why is it so cold in winter?"},
+  {"who":"eitan","text":"Why is the grass white in the morning?"},
+  {"who":"nili","text":"Where does rain come from?"},
+  "Great questions! Let's find out how the weather works."]},
+ {"scene":"tilt","lines":[
+  "Remember, the Earth is a little bit tilted.",
+  "In summer, your side leans toward the Sun. The Sun climbs high in the sky, and the days are long.",
+  "In winter, the Sun stays low, and the days are short."]},
+ {"scene":"flash","lines":[
+  "Look at these two flashlights.",
+  "When light shines straight down, it makes a small, strong spot. That's like summer sunshine. It warms the ground a lot.",
+  "When light comes in at a slant, it spreads out and gets weaker. That's like winter sunshine. So it's colder!"]},
+ {"scene":"night","lines":[
+  "Every day, the Sun warms the ground.",
+  "At night there is no Sun, so the ground lets its warmth float away, up into the sky.",
+  "On a clear night, the warmth escapes easily, and it gets really cold.",
+  "Clouds work like a blanket. They keep some of the warmth in.",
+  "That's why the coldest time is often early in the morning, just before the Sun comes up."]},
+ {"scene":"vapor","lines":[
+  "Now, water.",
+  "When the Sun warms a puddle, a lake, or the sea, some water turns into an invisible gas called water vapor.",
+  "It floats in the air all around us. How much water vapor is in the air is called humidity."]},
+ {"scene":"jars","lines":[
+  "Warm air can hold lots of water vapor. Cold air can hold less."]},
+ {"scene":"glass","lines":[
+  "Have you seen a cold glass of water get wet on the outside?",
+  "The cold glass cools the air around it, and the water vapor turns back into tiny drops."]},
+ {"scene":"frost","lines":[
+  "The same thing happens on the grass at night. When the grass gets cold, little drops appear. That's dew.",
+  "But on a winter night, the grass can get colder than freezing.",
+  "Then the water vapor turns straight into tiny ice crystals. That's frost!",
+  "When the Sun comes up and warms the grass, the frost melts away."]},
+ {"scene":"rain","lines":[
+  "So where does rain come from?",
+  "The Sun warms the sea, and water vapor rises up with the warm air.",
+  "High in the sky it is cold, so the vapor turns into tiny droplets. Lots and lots of them make a cloud!",
+  "The droplets bump together and grow bigger and heavier.",
+  "When they get too heavy, they fall down as rain.",
+  "The rain flows into rivers and back to the sea, and it all starts again. This is called the water cycle."]},
+ {"scene":"flake","lines":[
+  "When it's very cold up in the cloud, the water turns into ice crystals instead.",
+  "They grow into beautiful snowflakes. Every snowflake has six arms!"]},
+ {"scene":"fall","lines":[
+  "If the air stays cold all the way down, they land as snow.",
+  "If the air near the ground is warm, the snowflakes melt and land as rain. In fact, a lot of rain starts as snow, high up in the sky!"]},
+ {"scene":"outro","lines":[
+  "So: the tilt of the Earth gives us seasons.",
+  "The Sun warms the day, and clear nights get cold.",
+  "Cold grass gives us dew and frost.",
+  "And warm, wet air rising up gives us clouds, rain, and snow!",
+  {"who":"all","text":"Weather is awesome!"}]}
+]
